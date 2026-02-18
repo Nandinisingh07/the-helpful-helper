@@ -12,6 +12,10 @@ export default {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      sans: ['Inter', 'sans-serif'],
+      display: ['Orbitron', 'sans-serif'],
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",
