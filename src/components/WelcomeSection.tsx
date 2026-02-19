@@ -1,16 +1,15 @@
 const WelcomeSection = () => {
   return (
-    <section className="py-12 px-6 bg-background">
-      <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
-          WELCOME TO <span className="text-primary">JARVIS AGENT</span> — YOUR PERSONAL AI ASSISTANT
+    <section className="py-10 px-6 bg-background">
+      <div className="max-w-5xl mx-auto">
+        <h2 className="text-xl md:text-2xl font-bold text-foreground mb-4 uppercase tracking-wide">
+          Welcome to Institute of Innovation Science & Technology
         </h2>
-        <div className="w-24 h-1 bg-primary mx-auto mb-6" />
-        <p className="text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-          JARVIS Agent is your intelligent personal assistant built by Nandini Singh. 
-          Powered by advanced n8n automation workflows, JARVIS can help you with information retrieval, 
-          task management, smart scheduling, and much more. Simply click the chat bubble to start 
-          a conversation and experience the future of personal AI assistance.
+        <p className="text-muted-foreground leading-relaxed text-[15px]">
+          IIST (Institute of Innovation Science & Technology) is your intelligent hub built by Nandini Singh. 
+          Powered by advanced n8n automation workflows, our platform integrates AI-driven personal assistance through JARVIS Agent, 
+          offering smart scheduling, task management, information retrieval, and real-time automation support. 
+          Experience the future of personal AI assistance — simply click the chat bubble in the bottom-right corner to start a conversation with JARVIS.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
