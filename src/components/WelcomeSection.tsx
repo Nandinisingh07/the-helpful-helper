@@ -2,7 +2,7 @@ const WelcomeSection = () => {
   return (
     <section className="py-12 px-6 bg-background">
       <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-2xl md:text-3xl font-bold font-display text-foreground mb-4">
+        <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
           WELCOME TO <span className="text-primary">JARVIS AGENT</span> — YOUR PERSONAL AI ASSISTANT
         </h2>
         <div className="w-24 h-1 bg-primary mx-auto mb-6" />
@@ -21,10 +21,10 @@ const WelcomeSection = () => {
           ].map((card) => (
             <div
               key={card.title}
-              className="border border-border rounded-lg p-6 bg-card hover:border-primary/50 transition-colors group"
+              className="border border-border rounded-lg p-6 bg-card hover:border-primary/50 hover:shadow-lg transition-all group"
             >
               <div className="text-3xl mb-3">{card.icon}</div>
-              <h3 className="text-lg font-semibold font-display text-foreground mb-2 group-hover:text-primary transition-colors">
+              <h3 className="text-lg font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
                 {card.title}
               </h3>
               <p className="text-sm text-muted-foreground">{card.desc}</p>
