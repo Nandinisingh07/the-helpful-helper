@@ -76,5 +76,3 @@ Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/c
 <!-- minor update -->
 
 <!-- collab update with Dhairya -->
-
-<!-- collab update with Dhairya v2 -->
